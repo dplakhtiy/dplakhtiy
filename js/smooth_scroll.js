@@ -4,7 +4,7 @@ $(document).ready(function () {
       var elementClick = item.dataset.scrollto;
       var destination = $(elementClick).offset().top;
       jQuery("html:not(:animated),body:not(:animated)").animate({
-        scrollTop: destination
+        scrollTop: destination - 35
       }, 800);
       return false;
     });

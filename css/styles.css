@@ -1,0 +1,198 @@
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+h4 {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+.section-1 {
+  padding: 30px 0;
+  background-color: #292bab;
+}
+
+.section-1 h2 {
+  margin-bottom: 35px;
+}
+
+.section-1 .merits {
+  padding: 10px;
+}
+
+.section-1 .merits-content {
+  padding: 10px 5px 5px;
+  text-align: center;
+  color: white;
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+  min-height: 260px;
+}
+
+.section-1 .merits-content:hover {
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.section-2 {
+  padding: 30px 0;
+  background-color: #4b4b52;
+}
+
+.section-2 h2 {
+  margin-bottom: 20px;
+}
+
+.section-2 .slider-item {
+  text-align: center;
+}
+
+.section-2 .slider-item img {
+  max-width: 100%;
+}
+
+.section-3 {
+  padding: 30px 0;
+  background: #306480;
+  color: white;
+  overflow: hidden;
+}
+
+.section-3 h2 {
+  margin-bottom: 20px;
+}
+
+.section-3 h4 {
+  padding: 0 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  color: #d9d9d9;
+}
+
+.section-3 .description {
+  color: #d9d9d9;
+  margin-bottom: 30px;
+}
+
+.section-3 .description p {
+  margin: 10px 0;
+  padding: 0 5px;
+}
+
+.section-3 .prices-block .prices-item {
+  padding: 20px 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid white;
+}
+
+.section-3 .prices-block .prices-item-description p {
+  margin: 0;
+  padding-left: 40px;
+  position: relative;
+}
+
+.section-3 .prices-block .prices-item-description p span {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+  font-size: 25px;
+}
+
+.section-3 .prices-block .prices-item-value {
+  text-align: center;
+  min-width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-4 {
+  background-color: #4b4b52;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(0), color-stop(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.9))), url("../img/contact-back.jpg");
+  background-image: linear-gradient(0, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../img/contact-back.jpg");
+  background-size: cover;
+  background-position: top center;
+  padding: 30px 0;
+  color: white;
+}
+
+.section-4 h2 {
+  margin-bottom: 20px;
+}
+
+.section-4 .contact-link p a {
+  margin-left: 10px;
+}
+
+.section-4 .contact-link p a i {
+  margin-right: 10px;
+}
+
+.section-4 .mobile a {
+  color: #007bff;
+}
+
+.section-4 .mobile a:hover {
+  color: #0067d6;
+}
+
+.section-4 .instagram a {
+  color: #cd486b;
+}
+
+.section-4 .instagram a:hover {
+  color: #ba3356;
+}
+
+.section-4 .whatsapp a {
+  color: #43d854;
+}
+
+.section-4 .whatsapp a:hover {
+  color: #23ab33;
+}
+
+.section-4 .mail a {
+  color: white;
+}
+
+.section-4 .mail a span {
+  color: #cf1717;
+  font-weight: bold;
+}
+
+.section-4 .mail a:hover {
+  color: #d9d9d9;
+}
+
+.section-4 .mail a:hover span {
+  color: #8a0f0f;
+}
+
+@media screen and (max-width: 992px) {
+  .section-1 .merits-content {
+    min-height: 230px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
